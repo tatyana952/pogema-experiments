@@ -1,0 +1,7 @@
+﻿experiment,scenario,obs_radius,seed,num_agents,success,steps,optimal_steps,path_efficiency,blocked_move_commands,runtime_seconds,max_episode_steps,on_target,collision_system,algorithm,pogema_version,python_version
+02_observation,wall,1,42,1,1,23,21,0.913043,0,0.003147,128,nothing,soft,BatchAStarAgent,1.4.0,3.10.22
+02_observation,wall,5,42,1,1,21,21,1.0,0,0.00326,128,nothing,soft,BatchAStarAgent,1.4.0,3.10.22
+02_observation,zigzag,1,42,1,1,21,19,0.904762,0,0.002752,128,nothing,soft,BatchAStarAgent,1.4.0,3.10.22
+02_observation,zigzag,5,42,1,1,19,19,1.0,0,0.002807,128,nothing,soft,BatchAStarAgent,1.4.0,3.10.22
+02_observation,dead_end,1,42,1,1,24,16,0.666667,0,0.003309,128,nothing,soft,BatchAStarAgent,1.4.0,3.10.22
+02_observation,dead_end,5,42,1,1,16,16,1.0,0,0.001825,128,nothing,soft,BatchAStarAgent,1.4.0,3.10.22

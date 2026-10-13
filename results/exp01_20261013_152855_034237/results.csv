@@ -1,0 +1,10 @@
+﻿experiment,scenario,collision_system,seed,num_agents,steps,requested_actions,before,after,moved_agents,blocked_move_commands,pogema_version,python_version
+01_collisions,same_cell,priority,42,2,1,"[4, 3]","[[2, 1], [2, 3]]","[[2, 2], [2, 3]]",1,1,1.4.0,3.10.22
+01_collisions,same_cell,block_both,42,2,1,"[4, 3]","[[2, 1], [2, 3]]","[[2, 1], [2, 3]]",0,2,1.4.0,3.10.22
+01_collisions,same_cell,soft,42,2,1,"[4, 3]","[[2, 1], [2, 3]]","[[2, 2], [2, 3]]",1,1,1.4.0,3.10.22
+01_collisions,swap_cells,priority,42,2,1,"[4, 3]","[[2, 1], [2, 2]]","[[2, 1], [2, 2]]",0,2,1.4.0,3.10.22
+01_collisions,swap_cells,block_both,42,2,1,"[4, 3]","[[2, 1], [2, 2]]","[[2, 1], [2, 2]]",0,2,1.4.0,3.10.22
+01_collisions,swap_cells,soft,42,2,1,"[4, 3]","[[2, 1], [2, 2]]","[[2, 1], [2, 2]]",0,2,1.4.0,3.10.22
+01_collisions,following,priority,42,2,1,"[4, 4]","[[2, 1], [2, 2]]","[[2, 1], [2, 3]]",1,1,1.4.0,3.10.22
+01_collisions,following,block_both,42,2,1,"[4, 4]","[[2, 1], [2, 2]]","[[2, 1], [2, 3]]",1,1,1.4.0,3.10.22
+01_collisions,following,soft,42,2,1,"[4, 4]","[[2, 1], [2, 2]]","[[2, 2], [2, 3]]",2,0,1.4.0,3.10.22
